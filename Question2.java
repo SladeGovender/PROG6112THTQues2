@@ -29,7 +29,7 @@ class EstateAgentSales extends EstateAgent {
     // Method to print the property report
     public void printPropertyReport() {
         System.out.println("Estate Agent Name: " + getAgentName());
-        System.out.println("Property Sale Price: $" + getPropertyPrice());
-        System.out.println("Estate Agent Commission: $" + getAgentCommission());
+        System.out.println("Property Sale Price: R" + getPropertyPrice());
+        System.out.println("Estate Agent Commission: R" + getAgentCommission());
     }
 }

@@ -1,3 +1,8 @@
+public interface iEstateAgent {
+    String getAgentName();
+    double getPropertyPrice();
+    double getAgentCommission();
+}
 abstract class EstateAgent implements iEstateAgent {
     private String agentName;
     private double propertyPrice;
